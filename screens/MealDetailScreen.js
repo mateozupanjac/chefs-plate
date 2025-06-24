@@ -22,6 +22,7 @@ export default function MealDetailScreen({ route, navigation }) {
 
   useLayoutEffect(() => {
     navigation.setOptions({
+      title: meal.title,
       headerRight: () => {
         return (
           <IconButton
